@@ -1,10 +1,20 @@
 \babel@toc {french}{}
-\contentsline {section}{\numberline {1}Introduction}{2}%
-\contentsline {section}{\numberline {2}Premi\IeC {\`e}res r\IeC {\'e}actions}{3}%
-\contentsline {section}{\numberline {3}Analyses des sujets}{3}%
-\contentsline {subsection}{\numberline {3.1}Sujet n\IeC {\textdegree }1}{3}%
-\contentsline {subsection}{\numberline {3.2}Sujet n\IeC {\textdegree }2}{3}%
-\contentsline {section}{\numberline {4}Comparaison sujet n\IeC {\textdegree }1 - sujet n\IeC {\textdegree }2 par rapport \IeC {\`a} chaque \IeC {\'e}tudiant}{3}%
-\contentsline {section}{\numberline {5}Comparaisons entre \IeC {\'e}tudiants}{3}%
-\contentsline {subsection}{\numberline {5.1}Sujet n\IeC {\textdegree }1}{3}%
-\contentsline {subsection}{\numberline {5.2}Sujet n\IeC {\textdegree }2}{3}%
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {2}Premières réactions}{3}{}%
+\contentsline {section}{\numberline {3}Analyse des sujets}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Premier sujet}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Premier exercice}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Second exercice}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Second sujet}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Premier exercice}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Second exercice}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Troisième exercice}{4}{}%
+\contentsline {section}{\numberline {4}Comparaisons entre étudiants}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Sujet n°1}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Premier exercice}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Second exercice}{7}{}%
+\contentsline {subsection}{\numberline {4.2}Sujet n°2}{10}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Premier exercice}{10}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Second exercice}{15}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}Troisème exercice}{17}{}%
+\contentsline {subsection}{\numberline {4.3}Conclusion}{17}{}%
