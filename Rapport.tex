@@ -57,7 +57,7 @@
 	
 	\begin{minipage}{0.4\textwidth}
 		\begin{flushleft} \large
-			\emph{A l'attention de :}\\
+			\emph{À l'attention de :}\\
 			M. CRESPIN\\
 			M. DUSART\\
 			M. CONCHON\\
@@ -98,21 +98,21 @@ Nous les avons légèrement questionnés et aidés à comprendre ce qui n'allait
 %--- Comment il a été traité dans l'ensemble
 %--- Conclusion de l'expérience de ce sujet
 
-L'objectif principal de ce premier exercice était de mettre l'étudiant face à un chiffré dont la méthode de chiffrement est inconnue. Il a été utilisé deux clés pour chiffrer le message. L'exercice en lui-même n'était pas difficile mais il fallait que l'étudiant tente diverses choses pour comprendre comment le message avait été chiffré. Le chiffrement en question est un chiffrement par substitution (de type César) pour lequel les clés étaient \textsf{3} et \textsf{13}. Malgré les indications, la majorité des étudiants a perdu beaucoup de temps sur cet exercice, ce qui a influé sur l'ensemble du sujet. En effet un étudiant n'a pas pu effectuer l'exercice 2 et n'a pas trouvé comment résoudre l'exercice 1.
+L'objectif principal de ce premier exercice était de mettre l'étudiant face à un chiffré dont la méthode de chiffrement est inconnue. Il a été utilisé deux clés pour chiffrer le message. L'exercice en lui-même n'était pas difficile mais il fallait que l'étudiant tente diverses choses pour comprendre comment le message avait été chiffré. Le chiffrement en question est un chiffrement par substitution (de type César) pour lequel les clés étaient \textsf{3} et \textsf{13}. Malgré les indications, la majorité des étudiants a perdu beaucoup de temps sur cet exercice, ce qui a influé sur l'ensemble du sujet. En effet un étudiant n'a pas pu effectuer l'exercice $2$ et n'a pas trouvé comment résoudre l'exercice $1$.
 
 
 \subsubsection{Second exercice}
 
-L'objectif de ce second exercice était de développer la méthode de déchiffrement d'un chiffrement précisément décrit. On rappelle que le choix du langage de programmation n'était pas imposé et que suivant le langage utilisé cela est plus ou moins rapide à écrire. Les étapes de l'algorithme étaient bien décomposées mais malgré tout nous n'avons pas eu beaucoup de retours, en raison du temps mal géré par les étudiants lors de l'exercice 1.
+L'objectif de ce second exercice était de développer la méthode de déchiffrement d'un chiffrement précisément décrit. On rappelle que le choix du langage de programmation n'était pas imposé et que suivant le langage utilisé cela est plus ou moins rapide à écrire. Les étapes de l'algorithme étaient bien décomposées mais malgré tout nous n'avons pas eu beaucoup de retours, en raison du temps mal géré par les étudiants lors de l'exercice $1$.
 
 \pagebreak
 
 \subsection{Second sujet}
 \subsubsection{Premier exercice}
-L'objectif de cet exercice était de programmer l'algorithme de chiffrement écrit en français dans l'énoncé. Les seules difficultés étaient la maitrise des opérateurs logiques et la conversion de type. Contrairement à nos attentes, cet exercice n'a pas été aussi bien réussi qu'attendu. Étant donné que l'épreuve a été conduite en distanciel, les étudiants avaient accès à toutes les ressources possibles. Malgré tout, certains n'ont pas su trouver comment effectuer un \textsf{ET Logique}.
+L'objectif de cet exercice était de programmer l'algorithme de chiffrement écrit en français dans l'énoncé. Les seules difficultés étaient la maîtrise des opérateurs logiques et la conversion de type. Contrairement à nos attentes, cet exercice n'a pas été aussi bien réussi qu'attendu. Étant donné que l'épreuve a été conduite en distanciel, les étudiants avaient accès à toutes les ressources possibles. Malgré tout, certains n'ont pas su trouver comment effectuer un \textsf{ET Logique}.
 
 \subsubsection{Second exercice}
-L'objectif de cet exercice était d'écrire la méthode de déchiffrement à partir de celle qui a permit le chiffrement. Les opérations étaient donc à inverser. Si les étudiants possédaient la bonne fonction, ils leur étaient alors possible de déchiffrer le message. Ici aussi de nombreuses difficultés se sont présentées aux étudiants, comme le passage de tableaux de bits à une chaine de caractères.
+L'objectif de cet exercice était d'écrire la méthode de déchiffrement à partir de celle qui a permit le chiffrement. Les opérations étaient donc à inverser. Si les étudiants possédaient la bonne fonction, ils leur étaient alors possible de déchiffrer le message. Ici aussi de nombreuses difficultés se sont présentées aux étudiants, comme le passage de tableaux de bits à une chaîne de caractères.
 
 \subsubsection{Troisième exercice}
 L'objectif de cet exercice était de déchiffrer un fichier binaire donné. Afin de déchiffrer ce fichier, il fallait trouver la clef de chiffrement qui était écrite sur l'image dont l'extension n'est pas la bonne. Il fallait donc au préalable trouver le bon format d'image avec la commande type \textsf{xxd} ou \textsf{exiftool} ou autres. Une fois la clef récupérée il faut la concaténer autant de fois que nécessaire pour obtenir une taille de clef similaire à la taille du fichier binaire. Enfin il suffisait d'effectuer un \textsf{XOR} entre le fichier binaire et la clef pour obtenir l'image finale. Cet exercice était volontairement légèrement plus difficile et comme attendu il n'a pas été traité.
@@ -192,7 +192,7 @@ dicodage=list(zip(llch,llcl))
 chclUN=replaUN(chif,dicodage)
 \end{minted}
 
-Cet étudiant a eu la bonne idée de faire de l'analyse fréquentielle depuis un texte écrit en français. Grâce à cette méthode il peut trouver une clef et reconstituer une partie du message. Ensuite il peut essayer de trouver la seconde clef, compte-tenu du fait qu'il connait déjà une partie du message, en faisant le déchiffrement à la main. Cet étudiant utilise de nombreuses fonctions python élémentaires, il maitrise la gestion de liste, les dictionnaires et les boucles.
+Cet étudiant a eu la bonne idée de faire de l'analyse fréquentielle depuis un texte écrit en français. Grâce à cette méthode il peut trouver une clef et reconstituer une partie du message. Ensuite il peut essayer de trouver la seconde clef, compte-tenu du fait qu'il connaît déjà une partie du message, en faisant le déchiffrement à la main. Cet étudiant utilise de nombreuses fonctions python élémentaires, il maîtrise la gestion de liste, les dictionnaires et les boucles.
 
 \begin{minted}
 [
@@ -253,7 +253,7 @@ print(texte_clair.lower())
 # je parviens pas à continuer !!!!!!
 \end{minted}
 
-Cet étudiant a suivi le même raisonnement que le précédent. Son raisonnement arrive au même résultat et en allant un peu plus loin il aurait pu arriver au résultat final. Il maitrise quand même lui aussi les listes, dictionnaires et les fonctions élémentaires de python.\\
+Cet étudiant a suivi le même raisonnement que le précédent. Son raisonnement arrive au même résultat et en allant un peu plus loin il aurait pu arriver au résultat final. Il maîtrise quand même lui aussi les listes, dictionnaires et les fonctions élémentaires de python.\\
 On voit que seulement deux personnes sur quatre ont traités cet exercice ce qui est moins que ce que nous attendions.
 
 \subsubsection{Second exercice}
@@ -532,7 +532,7 @@ for i in range(0, len(message)-1) :
 print(l) #JL%FDHV BO@U'CW"HAfIZ
 \end{minted}
 
-Cet étudiant a presque le bon résultat. Sa méthodologie est bonne mais ses opérations logiques sont mal effectuées. En effet, il faut les faire avec des bits. La chaine "110" n'est pas le bit "110". Avec un peu plus de rigueur et d'attention cet étudiant aurait obtenu le bon chiffré. Il est quand même important de souligner que tout le reste est correct.
+Cet étudiant a presque le bon résultat. Sa méthodologie est bonne mais ses opérations logiques sont mal effectuées. En effet, il faut les faire avec des bits. La chaîne "110" n'est pas le bit "110". Avec un peu plus de rigueur et d'attention cet étudiant aurait obtenu le bon chiffré. Il est quand même important de souligner que tout le reste est correct.
 \pagebreak
 \begin{minted}
 [
@@ -628,8 +628,8 @@ for i in range(0,len(loct)):
 	rsltat=rsltat+bytes([int(loct[i],2)]).decode('utf-8')
 \end{minted}
 
-Cet étudiant était sur la bonne piste mais il n'a pas été au bout de la réflexion et a manqué de rigueur sur la rédaction du code. On remarque qu'il ne connait ni les opérateurs logiques ni la conversion chaîne de caractères vers bits. Même après "correction" du code, le résultat n'est pas du tout celui attendu.
-Les légères corrections apportées étaient nécessaires pour pouvoir éxécuter le programme. Autrement, les lignes de code de l'étudiant n'ont pas été modifiées.
+Cet étudiant était sur la bonne piste mais il n'a pas été au bout de la réflexion et a manqué de rigueur sur la rédaction du code. On remarque qu'il ne connaît ni les opérateurs logiques ni la conversion chaîne de caractères vers bits. Même après "correction" du code, le résultat n'est pas du tout celui attendu.
+Les légères corrections apportées étaient nécessaires pour pouvoir exécuter le programme. Autrement, les lignes de code de l'étudiant n'ont pas été modifiées.
 
 \pagebreak
 
@@ -747,6 +747,7 @@ Pour le déchiffrement il a effectué la même erreur, c'est à dire un \textsf{
 \subsubsection{Troisième exercice}
 
 A notre plus grand regret cet exercice n'a pas été traité. Cela aurait été un bon moyen de départager les étudiants et c'est celui qui ressemblait le plus à un CTF (Capture The Flag).
+
 \subsection{Conclusion}
 
 Les prémices de ce projet ont été de choisir des étudiants du \textsf{Master Maths. CRYPTIS} exclusivement. Notre choix s'est porté sur des étudiants avec des profils très différents et chacun avec leurs spécificités. Il aurait été trop facile de choisir des étudiants de la filière informatique du \textsf{Master CRYPTIS}.\\
@@ -759,5 +760,11 @@ En effet, leur niveau pour la majorité est à la hausse. Cela s'explique par un
  
 Nous avons apprécié ce type de projet en autonomie. Avec la situation sanitaire plus que complexe durant ce second semestre nous avons dû nous organiser autrement et faire les épreuves en distanciel. Cela n'a pas été idéal pour nous comme pour les étudiants mais nous sommes satisfait du résultat. Comme conclusion plus globale nous pouvons tirer comme enseignement que les étudiants ayant fait peu voir jamais d'informatique (orientée programmation) pendant leur cycle de Licence seront nécessairement plus en difficulté dans le cursus \textsf{Math. CRYPTIS}. Nous recommandons donc aux futurs promotions de travailler, seul, ou bien avec toutes les ressources qu'Internet propose, leur base en programmation.\\
 
-Nous vous remercions pour votre œil attentif et espéront que vous aurez autant que nous apprécié le récit de notre projet.
+Nous vous remercions pour votre œil attentif et espérons que vous aurez autant apprécié que nous le récit de notre projet.
+
+\subsubsection{Conclusion de Raphaël}
+
+
+\subsubsection{Conclusion d'Arthur}
+
 \end{document}
